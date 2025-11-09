@@ -4,11 +4,11 @@
 ![React](https://img.shields.io/badge/React-18.2.0-blue)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3.6-06B6D4)
 
-## 🌟 Overview
+## Overview
 
 **Iilonga** is a lightweight, responsive web application designed for Namibian youth (ages 15–34) to find short-term ("quick") or professional jobs. The platform connects unemployed youth with local job opportunities in a first-come-first-serve model inspired by Yango/Uber, adapted for job matching.
 
-## ✨ Features
+## Features
 
 ### Core Functionality
 - ✅ **Landing Page** - Welcome message and intro with call-to-action buttons
@@ -19,33 +19,27 @@
 - ✅ **Notifications** - Real-time job alerts and system messages
 - ✅ **In-Memory Storage** - All data stored in JavaScript arrays (session-based)
 
-### 🆕 New Features (v2.0)
-- 🔐 **Authentication System** - Login/Register pages with validation
-- 🌓 **Dark Mode** - Toggle between light and dark themes with persistence
-- 🎭 **Enhanced Animations** - Smooth transitions, entrance effects, and micro-interactions
-- 🔒 **Protected Routes** - Secure pages require authentication
-- ⚡ **Loading States** - Beautiful spinners and feedback during operations
+### Features 
+- **Authentication System** - Login/Register pages with validation
+- **Dark Mode** - Toggle between light and dark themes with persistence
+- **Enhanced Animations** - Smooth transitions, entrance effects, and micro-interactions
+- **Protected Routes** - Secure pages require authentication
+- **Loading States** - Beautiful spinners and feedback during operations
+- **Filtering & Sorting** - Filter by category, sort by date/pay
+- **Verification Badges** - Visual indicators for verified users
+- **Summary Statistics** - Job counts and activity metrics
+- **JSON Export** - Download session data as JSON file
+- **Responsive Design** - Works on mobile, tablet, and desktop
+- **Modern UI** - Clean interface with youthful colors and animations
 
-### Additional Features
-- 🔍 **Filtering & Sorting** - Filter by category, sort by date/pay
-- ✅ **Verification Badges** - Visual indicators for verified users
-- 📊 **Summary Statistics** - Job counts and activity metrics
-- 💾 **JSON Export** - Download session data as JSON file
-- 📱 **Responsive Design** - Works on mobile, tablet, and desktop
-- 🎨 **Modern UI** - Clean interface with youthful colors and animations
-
-## 🎨 Design System
+##  Design System
 
 ### Colors
 - **Green (#2E7D32)** - Success, primary actions
 - **Blue (#1976D2)** - Trust, secondary actions
 - **Yellow (#F9A825)** - Energy, highlights
 
-### Typography
-- **Poppins** - Headings (bold, modern)
-- **Inter** - Body text (readable, clean)
-
-## 🚀 Getting Started
+## How you can get started
 
 ### Prerequisites
 - Node.js (v16 or higher) - [Download from nodejs.org](https://nodejs.org/)
@@ -86,7 +80,7 @@ npm run build
 npm run preview
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 IILONGA/
@@ -118,7 +112,7 @@ IILONGA/
 └── postcss.config.js      # PostCSS configuration
 ```
 
-## 💡 Usage Guide
+## Usage Guide
 
 ### Getting Started
 1. **Login/Register** - Create an account or login (demo mode accepts any credentials)
@@ -140,7 +134,7 @@ IILONGA/
 4. **Track Posts** - View your posted jobs in your profile
 5. **Receive Responses** - Check notifications for applicant responses
 
-## 🔧 Technical Details
+## Technical Details
 
 ### Tech Stack
 - **Frontend:** React 18.2
@@ -187,14 +181,14 @@ IILONGA/
 }
 ```
 
-## 🎯 Key Features Explained
+## Key Features Explained
 
 ### In-Memory Storage
 All data is stored in React state (JavaScript arrays). This means:
-- ✅ No database required
-- ✅ Instant updates and interactions
-- ⚠️ Data resets when you refresh the page
-- 💾 Use "Export Data" to save your session
+- No database required
+- Instant updates and interactions
+- Data resets when you refresh the page
+- Use "Export Data" to save your session
 
 ### Role Switching
 Users can switch between "Job Seeker" and "Employer" modes:
@@ -214,31 +208,24 @@ Mock verification for job seekers:
 - Verified badge displayed
 - Priority visibility (simulated)
 
-## 📊 Sample Data
+## Sample Data
 
 The app loads with sample data on startup:
 - 5 sample jobs (mix of quick and professional)
 - 2 sample users (seeker and employer)
 - System welcome messages
 
-## 🌐 Browser Support
+## Browser Support
 - Chrome (recommended)
 - Firefox
 - Safari
 - Edge
 
-## 🤝 Contributing
 
-This is a demonstration project for educational purposes.
-
-## 📄 License
-
-This project is for demonstration purposes.
-
-## 📞 Contact
+## Contact
 
 For questions or feedback:
-- Email: info@iilonga.na
+- Email: ndinowix
 - Website: Coming soon
 
 ---
